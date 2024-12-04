@@ -1,0 +1,46 @@
+.nav {
+    position: fixed; /* Makes the navbar fixed at the top */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the navbar stays on top */
+    background-color: #eca0a0;
+    color: white;
+  }
+  
+  /* Change this color when you scroll */
+  /* .affix {
+    background-color: #b8eaf1; 
+  } */
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .navlinks {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navlinks li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navTrigger {
+    display: none;
+  }
+  
+  .main_list {
+    display: flex;
+  }
+  
+  .logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
